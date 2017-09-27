@@ -12,6 +12,6 @@ RUN apk add --no-cache \
         openssh-client \
         python \
         sysstat \
-        tcpdump \                                                                                        
+        tcpdump \
         vim
-        
+
