@@ -11,10 +11,10 @@ This project focus on providing system administration and troubleshooting tools 
 * **curl** - Tool to transfer data from or to a server.
 * **htop** - A ncurses-based process viewer for Linux.
 * **jq** - Commandline JSON processor.
-* **netcat-openbsd** - simple unix utility which reads and writes data across network connections, using TCP or UDP protocol.
+* **netcat** - Utility which reads and writes data across network connections using TCP or UDP protocol.
 * **net-tools** - Includes network tools such as arp, ifconfig, netstat, rarp, nameif and route.
 * **openssh-client** - OpenSSH SSH client.
-* **python** - An interpreted, interactive, object-oriented programming language.
+* **python 2** - An interpreted, interactive, object-oriented programming language.
 * **sysstat** - System performance tools for the Linux operating system.
 * **tcpdump** - Dump traffic on a network.
 * **vim** - Vi IMproved, a programmers text editor.
