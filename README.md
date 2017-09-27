@@ -20,7 +20,13 @@ This project focus on providing system administration and troubleshooting tools 
 
 ```bash
 # Running with '--net=host' allows the container to use tcpdump in host interfaces.
-docker run --rm -it --net=host <container> bash
 
+docker run \
+    --rm \
+    --name toolkit \
+    --net=host \
+    -it \
+    jonathadv/admin-toolkit \
+    bash
 ```
 
