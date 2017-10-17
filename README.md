@@ -8,9 +8,12 @@ This project focus on providing system administration and troubleshooting tools 
 ## Tools
 
 * **bash** - GNU Bourne-Again SHell.
+* **bind-tools** - The ISC DNS tools (dig, nslookup, host).
 * **curl** - Tool to transfer data from or to a server.
 * **htop** - A ncurses-based process viewer for Linux.
+* **iptraf-ng** - An IP Network Monitoring tool.
 * **jq** - Commandline JSON processor.
+* **nano** - Text Editor. GNU nano is designed to be a free replacement for the Pico text editor.
 * **netcat** - Utility which reads and writes data across network connections using TCP or UDP protocol.
 * **net-tools** - Includes network tools such as arp, ifconfig, netstat, rarp, nameif and route.
 * **openssh-client** - OpenSSH SSH client.
