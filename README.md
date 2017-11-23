@@ -11,6 +11,7 @@ This project focus on providing system administration and troubleshooting tools 
 * **bind-tools** - The ISC DNS tools (dig, nslookup, host).
 * **curl** - Tool to transfer data from or to a server.
 * **htop** - A ncurses-based process viewer for Linux.
+* **iotop** - Simple top-like I/O monitor.
 * **iptraf-ng** - An IP Network Monitoring tool.
 * **jq** - Commandline JSON processor.
 * **nano** - Text Editor. GNU nano is designed to be a free replacement for the Pico text editor.
