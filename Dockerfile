@@ -8,6 +8,7 @@ RUN apk add --no-cache \
         curl \
         htop \
         iptraf-ng \
+        iotop \
         jq \
         nano \
         netcat-openbsd \
