@@ -35,7 +35,7 @@ docker run \
     --rm \
     --name toolkit \
     --net=host \
-    -v /tmp/data/:/tmp/data/
+    -v /tmp/data/:/tmp/data/ \
     -it \
     jonathadv/admin-toolkit \
     bash
