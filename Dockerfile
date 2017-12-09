@@ -1,5 +1,5 @@
-# Using a build stage in order to build htop using /proc_host
-# as its default processes mount point instead of /proc.
+# Using a build stage in order to build htop using the flag `--with-proc=/proc_host`
+# which allows it to use a custom location instead of `/proc`.
 FROM alpine:3.6 as builder
 
 WORKDIR /build
