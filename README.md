@@ -10,7 +10,7 @@ This project focus on providing system administration and troubleshooting tools 
 * **bash** - GNU Bourne-Again SHell.
 * **bind-tools** - The ISC DNS tools (dig, nslookup, host).
 * **curl** - Tool to transfer data from or to a server.
-* **htop** - A ncurses-based process viewer for Linux.
+* **htop** - A ncurses-based process viewer for Linux. (built from source, allows to watch the **host's processes**)
 * **iotop** - Simple top-like I/O monitor.
 * **iptraf-ng** - An IP Network Monitoring tool.
 * **jq** - Commandline JSON processor.
@@ -27,7 +27,9 @@ This project focus on providing system administration and troubleshooting tools 
 
 Use `--net=host` allows `tcpdump` to access the host's network interfaces.
 
-Optionally you can create a local directory and map it to the container:
+Use `-v /proc:/proc_host` allows `htop` to watch the host's processes. Note that `htop` is unable to kill any host's processes.
+
+Optionally you can create a local directory and map it to the container like `-v /tmp/data/:/tmp/data/`:
 
 ```bash
 mkdir /tmp/data
@@ -36,6 +38,7 @@ docker run \
     --rm \
     --name toolkit \
     --net=host \
+    -v /proc:/proc_host \
     -v /tmp/data/:/tmp/data/ \
     -it \
     jonathadv/admin-toolkit \
