@@ -27,7 +27,7 @@ This project focus on providing system administration and troubleshooting tools 
 
 Use `--net=host` allows `tcpdump` to access the host's network interfaces.
 
-Use `-v /proc:/proc_host` allows `htop` to watch the host's processes.
+Use `-v /proc:/proc_host` allows `htop` to watch the host's processes. Note that `htop` is unable to kill any host's processes.
 
 Optionally you can create a local directory and map it to the container like `-v /tmp/data/:/tmp/data/`:
 
