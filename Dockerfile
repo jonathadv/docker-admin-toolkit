@@ -34,6 +34,7 @@ RUN apk add --no-cache \
         python \
         sysstat \
         tcpdump \
+        tshark \
         vim
 
 COPY --from=builder /build/htop-master/dist/bin/htop /usr/local/bin/
