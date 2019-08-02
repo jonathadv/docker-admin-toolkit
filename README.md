@@ -21,6 +21,7 @@ This project focus on providing system administration and troubleshooting tools 
 * **python 2** - An interpreted, interactive, object-oriented programming language.
 * **sysstat** - System performance tools for the Linux operating system.
 * **tcpdump** - Dump traffic on a network.
+* **tshark** - network protoccol analyzer - console version.
 * **vim** - Vi IMproved, a programmers text editor.
 
 ## Running the container
