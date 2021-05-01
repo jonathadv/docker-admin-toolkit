@@ -1,6 +1,6 @@
 # Docker System Admin and Troubleshooting Toolkit
 [![Docker Build Automated](https://img.shields.io/docker/automated/jonathadv/admin-toolkit.svg)](https://hub.docker.com/r/jonathadv/admin-toolkit/)
-[![Docker Build Status](https://img.shields.io/docker/build/jonathadv/admin-toolkit.svg)](https://hub.docker.com/r/jonathadv/admin-toolkit/)
+[![Docker Build Status](https://img.shields.io/docker/cloud/build/jonathadv/admin-toolkit.svg)](https://hub.docker.com/r/jonathadv/admin-toolkit/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/jonathadv/admin-toolkit.svg)](https://hub.docker.com/r/jonathadv/admin-toolkit/)
 
 This project focus on providing system administration and troubleshooting tools without the need of installing them in the host system.
