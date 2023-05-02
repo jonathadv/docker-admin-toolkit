@@ -19,7 +19,7 @@ This project focus on providing system administration and troubleshooting tools 
 * **net-tools** - Includes network tools such as arp, ifconfig, netstat, rarp, nameif and route.
 * **nmap** - The Network Mapper - Free Security Scanner
 * **openssh-client** - OpenSSH SSH client.
-* **python 2** - An interpreted, interactive, object-oriented programming language.
+* **python 3** - An interpreted, interactive, object-oriented programming language.
 * **sysstat** - System performance tools for the Linux operating system.
 * **tcpdump** - Dump traffic on a network.
 * **tshark** - network protoccol analyzer - console version.
