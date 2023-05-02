@@ -17,6 +17,7 @@ This project focus on providing system administration and troubleshooting tools 
 * **nano** - Text Editor. GNU nano is designed to be a free replacement for the Pico text editor.
 * **netcat** - Utility which reads and writes data across network connections using TCP or UDP protocol.
 * **net-tools** - Includes network tools such as arp, ifconfig, netstat, rarp, nameif and route.
+* **nmap** - The Network Mapper - Free Security Scanner
 * **openssh-client** - OpenSSH SSH client.
 * **python 2** - An interpreted, interactive, object-oriented programming language.
 * **sysstat** - System performance tools for the Linux operating system.
